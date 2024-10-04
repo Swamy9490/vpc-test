@@ -13,3 +13,11 @@ variable "common_tags" {
 variable "vpc_tags" {
     
 }
+
+variable "project_name" {
+    default = "roboshop"   
+}
+
+variable "environment" {
+    default = "dev"   
+}
