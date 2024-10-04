@@ -1,22 +1,22 @@
 variable "vpc_cidr" {
-    default = "10.0.0.0/16"
+  default = "10.0.0.0/16"
 }
 variable "common_tags" {
-    default = {
-        roject = "roboshop"
-        environment = "dev"
-        terraform = "true"
-    }
+  default = {
+    Project = "roboshop"
+    Environment = "dev"
+    Terraform = "true"
+  }
 }
 
 variable "vpc_tags" {
-    default = {}
+  default = {}
 }
 
 variable "project_name" {
-    default = "roboshop"   
+  default = "roboshop"
 }
 
 variable "environment" {
-    default = "dev"   
+  default = "dev"
 }
